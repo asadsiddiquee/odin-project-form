@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+}
+
+img {
+  height: 99vh;
+  max-width: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 1px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
+.form-section h2 {
+  padding-right: 15rem;
+  padding-left: 1rem;
+}
+
+.form-section > h2:nth-child(3) {
+  margin: 2rem 0;
+}
+
+.form-section > h2:first-child {
+  margin-top: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 5px 0px 8px;
+}
+.account-form {
+  display: flex;
+}
+label {
+  margin-top: 15px;
+}
+
+input {
+  padding-left: 6px;
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0.1px solid rgb(207, 200, 200);
+  font-size: 1.2rem;
+}
+input:invalid {
+  border: 2px solid red;
+}
+form > div > div {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
+
+button {
+  cursor: pointer;
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 0.1px solid rgb(250, 248, 248);
+  background-color: rgb(103, 68, 230);
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.footer {
+  font-size: 1.5rem;
+}
+.footer > p {
+  display: inline-block;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: rgb(103, 68, 230);
+}
